@@ -23,6 +23,25 @@ The raw Excel file was processed in Python to filter Colombia's data and reshape
 
 The SQL results were pulled into Python via SQLAlchemy and visualized through informative charts. Finally we built a simple actuarial model that describes the actuarial calculation called annuity, which represents a series of periodic payments made over a person's lifetime. In pension modeling, the annuity value represents the present value of paying one unit of currency per year to a retiree for the rest of their life, it serves as a multiplier that, when applied to the actual pension benefit, gives the total liability a company must recognize. In order to do this, we used survival curves calculated from the mortality data. Two sensitivity analyses were conducted, one varying the discount rate and one varying the retirement age, to illustrate how these assumptions affect pension liabilities.
 
+## Tools and technologies
+
+| Python
+| PostgreSQL
+| SQLAlchemy + psycopg2 
+| Jupyter Notebook
+| Git + GitHub
+
+## Project structure
+
+
+```
+mortality-analysis/
+├── data/          # Cleaned UN mortality data (CSV)
+├── sql/           # SQL queries
+├── notebooks/     # Jupyter notebook with full analysis
+└── charts/        # Generated visualizations
+```
+
 
 ## Limitations
 
