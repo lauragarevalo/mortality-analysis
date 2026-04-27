@@ -7,7 +7,7 @@ In this project we analyze the death counts by age for Colombia from 1950 to 202
 
 ## Data
 
-The data comes from the UN World Population Prospects 2024 and contains death counts for Colombia from 1950 to 2023, disaggregated by single year of age (0 to 100+) for both sexes combined — 7,474 rows in total. Since the raw file contains data for all countries and is structured in wide format (one column per age), it was filtered and reshaped to only include Colombia's death counts by age and year in a clean long format suitable for SQL and Python analysis.
+The data comes from the UN World Population Prospects 2024 and contains death counts for Colombia from 1950 to 2023, disaggregated by single year of age (0 to 100+) for both sexes combined (7,474 rows in total). Since the raw file contains data for all countries and is structured in wide format (one column per age), it was filtered and reshaped to only include Colombia's death counts by age and year in a clean long format suitable for SQL and Python analysis.
 
 Data Source:
 
